@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PrimerProyecto</string>
+    <string name="btn_agregar">Agregar</string>
+    <string name="btn_pasar">Segunda actividad</string>
+</resources>

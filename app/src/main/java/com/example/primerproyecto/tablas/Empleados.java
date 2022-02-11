@@ -1,0 +1,73 @@
+package com.example.primerproyecto.tablas;
+
+public class Empleados
+{
+    private Integer id;
+    private String nombres;
+    private String apellidos;
+    private Integer edad;
+    private String correo;
+    private byte[] foto;
+
+    public Empleados(Integer id, String nombres, String apellidos, Integer edad, String correo, byte[] foto) {
+        this.id = id;
+        this.nombres = nombres;
+        this.apellidos = apellidos;
+        this.edad = edad;
+        this.correo = correo;
+        this.foto = foto;
+    }
+
+    public Empleados()
+    {
+        // Constructor vacio
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getNombres() {
+        return nombres;
+    }
+
+    public void setNombres(String nombres) {
+        this.nombres = nombres;
+    }
+
+    public String getApellidos() {
+        return apellidos;
+    }
+
+    public void setApellidos(String apellidos) {
+        this.apellidos = apellidos;
+    }
+
+    public Integer getEdad() {
+        return edad;
+    }
+
+    public void setEdad(Integer edad) {
+        this.edad = edad;
+    }
+
+    public String getCorreo() {
+        return correo;
+    }
+
+    public void setCorreo(String correo) {
+        this.correo = correo;
+    }
+
+    public byte[] getFoto() {
+        return foto;
+    }
+
+    public void setFoto(byte[] foto) {
+        this.foto = foto;
+    }
+}
